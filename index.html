@@ -3,95 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sathish Jindam - Portfolio</title>
+    <title>Sathish Jindam Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 </head>
 <body>
+    <div class="space-background"></div>
     <header>
-        <div class="container">
-            <h1>Sathish Jindam</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="hero">
-        <h2 class="slide-in-text">Welcome to My Portfolio</h2>
-        <p>Senior Data Engineer | Machine Learning Enthusiast</p>
+    <!-- Sections -->
+    <section id="home" class="section">
+        <h1 class="fancy-text">Welcome to My Universe</h1>
+        <p class="intro-text">I am Sathish Jindam, a Senior Data Engineer</p>
     </section>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>I am a Senior Data Engineer, passionate about building scalable data architectures, working with big data technologies, and solving complex problems using cloud platforms.</p>
+    <section id="skills" class="section">
+        <h2 class="fancy-text">Skills</h2>
+        <p>Programming: Python, Java, Scala, C, SQL</p>
+        <p>Database Systems: Snowflake, SQL Server, PostgreSQL, MongoDB, Neo4j</p>
+        <p>Cloud Infrastructure: Dagster, Microsoft Azure, GCP, Airflow</p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skill-container">
-            <p>Programming: Python, Java, Scala, C, SQL</p>
-            <p>Database Systems: Snowflake, SQL Server, PostgreSQL, MongoDB, Neo4j</p>
-            <p>Cloud Infrastructure: Dagster, Microsoft Azure, GCP, Airflow</p>
-            <p>Data Engineering & Big Data: DBT, Hadoop, Spark, PySpark, Kafka, Databricks, ADF, Data Lake, PowerBI, Tableau</p>
-            <p>Other Skills/Tools: Git, Docker, Kubernetes, CI/CD, REST API, JIRA, Confluence, Latex, Looker</p>
-        </div>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="experience">
+    <section id="experience" class="section">
+        <h2 class="fancy-text">Experience</h2>
+        <div class="experience-item">
             <h3>Senior Data Engineer | Infosys Ltd. | Aug 2022 – Present</h3>
+            <p>Top Skills: Python, Snowflake</p>
             <ul>
-                <li>Designed architecture for migrating ETL data pipelines from Azure Data Factory to Dagster, achieving 80% cost optimization.</li>
-                <li>Automated Python scripts for connecting to O365 email, SharePoint, SQL Server, and blob storage gen2, streamlining data integration.</li>
-                <li>Led cross-functional teams using Agile (Scrum), designed solutions aligned with business objectives, and debugged complex Python scripts.</li>
-            </ul>
-        </div>
-        <div class="experience">
-            <h3>Data Engineer | Infosys Ltd. | Jan 2022 – Aug 2022</h3>
-            <ul>
-                <li>Engineered data pipelines for social media platforms using REST APIs and Azure Data Service Pipelines.</li>
-                <li>Optimized Azure ADF CI/CD pipelines, reducing ETL runtime by 95%.</li>
-            </ul>
-        </div>
-        <div class="experience">
-            <h3>System Engineer | Infosys Ltd. | Aug 2019 – Dec 2021</h3>
-            <ul>
-                <li>Automated ETL processes with Azure ADF, enhancing pipeline efficiency and reliability.</li>
-                <li>Migrated Alteryx data flows to modern Edge Technology pipelines, handling daily insertions of over 300K+ records.</li>
+                <li>Designed ETL architecture, achieving 80% cost optimization.</li>
+                <li>Automated Python scripts for data integration.</li>
             </ul>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Facial Attributes Editor (GAN-based)</h3>
-            <p>A GAN-based deep learning architecture that transforms facial images based on desired attribute changes.</p>
-        </div>
-        <div class="project">
-            <h3>Automatic Rubik’s Cube Solver</h3>
-            <p>Developed a system that solves a Rubik’s Cube using computer vision and algorithms.</p>
+    <section id="projects" class="section">
+        <h2 class="fancy-text">Projects</h2>
+        <div class="project-item">
+            <h3>Facial Attributes Editor</h3>
+            <p>Developed a GAN-based system to transform facial attributes in images.</p>
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
+    <section id="contact" class="section">
+        <h2 class="fancy-text">Contact</h2>
         <p>Email: <a href="mailto:sathishjindam98@gmail.com">sathishjindam98@gmail.com</a></p>
-        <p>Phone: +31 627289505</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/sathishjindam">linkedin.com/in/sathishjindam</a></p>
     </section>
-
-    <footer>
-        <p>&copy; 2024 Sathish Jindam</p>
-    </footer>
 
     <script src="script.js"></script>
 </body>
